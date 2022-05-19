@@ -1,0 +1,17 @@
+.btn {
+  width: 25px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+  border-radius: 100%;
+}
+
+.btn:hover {
+  opacity: .8;
+  -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=Button.module.css.map */

@@ -1,0 +1,15 @@
+.btn {
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  padding: .5em .6em .3em .6em;
+  border-radius: 100%;
+  background: #d0d0d0;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+/*# sourceMappingURL=CloseBtn.module.css.map */

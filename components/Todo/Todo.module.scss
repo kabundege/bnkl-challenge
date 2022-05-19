@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.todo{
+    cursor: pointer;
+    @include flexer();
+    padding: 0 $spacing;
+    border-bottom: 1px solid $bgColor;
+    p{
+        font-weight: 300;  
+        color: $textColor;
+        font-size: $textSize;
+        // truncate text
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        flex: .8;
+    }
+    &:hover{
+        background: $bgColor;
+    }
+}

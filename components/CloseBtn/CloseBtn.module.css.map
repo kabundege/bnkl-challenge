@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAA;EACA,UAAU,ECKN,GAAG,CAAC,GAAE,CAAC,IAAI;EDJf,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,mBAAmB;EAC5B,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,OAAY;CAS3B;;AAhBD,AAaI,IAbA,AAaC,MAAM,CAAA;EACH,OAAO,EAAE,EAAE;CACd",
+    "sources": [
+        "CloseBtn.module.scss",
+        "../../styles/variables.scss"
+    ],
+    "names": [],
+    "file": "CloseBtn.module.css"
+}

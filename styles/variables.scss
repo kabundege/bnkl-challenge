@@ -1,0 +1,15 @@
+$bgColor: #FAFAFA;
+$orange: #CC634F;
+$red: #CC634F;
+$textColor:#5B5B5B;
+$blue:#6085D8;
+$textSize:20px;
+$br: 3em;
+$spacing: 2em;
+$trans: all .5 ease;
+
+@mixin flexer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.btn{
+    transition: $trans;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: .5em .6em .3em .6em;
+    border-radius: 100%;
+    background: $bgColor/1.2;
+
+    .icon{
+        // font-size: $textSize;
+    }
+
+    &:hover{
+        opacity: .8;
+    }
+}

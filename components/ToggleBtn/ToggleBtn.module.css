@@ -1,0 +1,23 @@
+.icon {
+  color: #6085D8;
+  font-size: 26px;
+}
+
+.btn {
+  background: #d0d0d0;
+  border: 1px solid #6085D8;
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+}
+
+.btn, .icon {
+  cursor: pointer;
+}
+
+.btn:hover, .icon:hover {
+  opacity: .8;
+}
+/*# sourceMappingURL=ToggleBtn.module.css.map */

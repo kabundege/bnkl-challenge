@@ -1,0 +1,31 @@
+.todo {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 2em;
+  border-bottom: 1px solid #FAFAFA;
+}
+
+.todo p {
+  font-weight: 300;
+  color: #5B5B5B;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-flex: .8;
+      -ms-flex: .8;
+          flex: .8;
+}
+
+.todo:hover {
+  background: #FAFAFA;
+}
+/*# sourceMappingURL=Todo.module.css.map */
