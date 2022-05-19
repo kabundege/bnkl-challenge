@@ -9,7 +9,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 2em;
+  padding: 0.66667em 2em;
   border-bottom: 1px solid #FAFAFA;
 }
 

@@ -3,7 +3,7 @@
 .todo{
     cursor: pointer;
     @include flexer();
-    padding: 0 $spacing;
+    padding: $spacing/3 $spacing;
     border-bottom: 1px solid $bgColor;
     p{
         font-weight: 300;  

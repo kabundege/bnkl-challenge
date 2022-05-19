@@ -46,7 +46,7 @@
 
     nav{
         @include flexer();
-        margin: 0 $spacing;
+        padding: $spacing/3 $spacing;
         p{
             color: $orange;
         }
