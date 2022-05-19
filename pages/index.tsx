@@ -14,7 +14,7 @@ import TodoComponent from '../components/Todo'
 
 const Home: NextPage = () => {
   const { todos,handleTodos } = useContext(StoreContext)
-  const [ filter,setFilter ] = useState<background>()
+  const [ filter,setFilter ] = useState<background | ''>()
   const [ data,setData ] = useState<Todo[]>([])
   const [ todo,setTodo ] = useState<string>('')
   const date = useRef(new Date()).current;
@@ -114,18 +114,18 @@ const Home: NextPage = () => {
   const Todos = (
     <div className={styles.todos}>
       {
-        // Generates a unique key for every todo item
-        React.Children.toArray(
-          data.map(one => {
-            return(
+        data ?
+        data.map(one => {
+          return(
+            <div key={one.id}>
               <TodoComponent 
                 todo={one}
                 todoDeleteHandler={todoDeleteHandler}
                 todoToggleHandler={todoToggleHandler}
               />
-            )
-          })
-        )
+            </div>
+          )
+        }) : null
       }
     </div>
   )
