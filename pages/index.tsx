@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import React, { useContext, useEffect, useRef, useState } from 'react'
-import { AiOutlinePlus } from 'react-icons/ai'
+import { AiOutlineClose, AiOutlinePlus } from 'react-icons/ai'
 import Button from '../components/Button'
 import CloseBtn from '../components/CloseBtn'
 import Head from '../components/Header'
@@ -104,7 +104,9 @@ const Home: NextPage = () => {
           filter &&
           <>
             <span className={styles.spacer} /> {/** For Spacing purpose */}
-            <CloseBtn onClick={() => setFilter('')}  />
+            <CloseBtn onClick={() => setFilter('')}  >
+              <AiOutlineClose className={styles.icon}/>
+            </CloseBtn>
           </>
         }
       </div>

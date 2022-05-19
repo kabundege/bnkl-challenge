@@ -1,15 +1,16 @@
-import React, { FC } from 'react'
+import React, { FC, ReactNode } from 'react'
 import styles from './CloseBtn.module.css'
 import { AiOutlineClose } from 'react-icons/ai'
 
 interface Props {
-    onClick: () => void
+    onClick: () => void,
+    children: ReactNode
 }
 
-const  CloseBtn:FC<Props> = ({ onClick }) => {
+const  CloseBtn:FC<Props> = ({ onClick,children }) => {
   return (
     <button onClick={onClick} className={styles.btn}>
-        <AiOutlineClose className={styles.icon}/>
+      {children}
     </button>
   )
 }

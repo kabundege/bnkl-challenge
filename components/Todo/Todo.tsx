@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import { AiFillDelete } from 'react-icons/ai'
 import { Todo } from '../../types'
 import Button from '../Button'
 import CloseBtn from '../CloseBtn'
@@ -20,9 +21,9 @@ const Todo:FC<Props> = ({ todo,todoToggleHandler,todoDeleteHandler }) => (
         />
         <p onClick={() => todoToggleHandler(todo.id)} >{todo.content}</p>
         <Button background={todo.background} />
-        <CloseBtn 
-            onClick={() => todoDeleteHandler(todo.id)}  
-            />
+        <CloseBtn onClick={() => todoDeleteHandler(todo.id)} >
+            <AiFillDelete className={styles.icon}/>
+        </CloseBtn>
     </div>
   )
 
