@@ -2,7 +2,6 @@ import React , { createContext, FC, ReactNode, useEffect, useState } from 'react
 import { ContextProps, handleTodos, Todo } from '../types';
 import { generateId } from '../Utils';
 
-
 const dummyTodos:Todo[] = [
     {
         id: generateId(),
@@ -71,6 +70,8 @@ const initialState:ContextProps = {
     todos: dummyTodos,
     handleTodos: () => {}
 }
+
+
 
 const StoreContext = createContext<ContextProps>(initialState);
 

@@ -71,7 +71,7 @@ const Home: NextPage = () => {
         {dateHelper(date,{ month:'short' })}
       </span>
       <span>
-        {date.getMonth() + 1 }
+        {date.getDate()}
       </span>
       <span>
         {date.getFullYear()}
